@@ -1,5 +1,6 @@
 package com.example.fullstack_backend.controller;
 
+import com.example.fullstack_backend.exception.UserNotFoundException;
 import com.example.fullstack_backend.model.User;
 import com.example.fullstack_backend.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
